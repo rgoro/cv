@@ -1,0 +1,39 @@
+\documentclass[a4paper,10pt, spanish]{article}
+
+\input{preambulo}
+
+\newcommand\remuneracion{}
+\ifx \platita \undefined
+  \renewcommand\remuneracion{}
+\else
+  \renewcommand\remuneracion{\subparagraph{Remuneraci\'on pretendida:}\$\number\platita\ por 6 hs diarias.}
+\fi
+
+\begin{document}
+
+\maketitle
+
+%\vspace*{1.5cm}
+
+\section{Presentaci'on}
+Llevo 8 a'unos de experiencia laboral en programaci'on y afines.  He desarrollado sistemas desde cero, middleware, extendido y/o corregido c'odigo ajeno y he llevado adelante proyectos de I+D.  He trabajado en equipo, solo, como cuentapropista, en pymes y en grandes empresas, con tecnolog'ias de punta y con plataformas legacy o redondamente obsoletas.  En PHP, Java, C\#, Python, C++, Javascript, etc., soy Programador, no programador en alg'un lenguaje.
+
+La 'unica constante es que, al d'ia de hoy, no ha habido un problema al que no haya podido ofrecer una buena soluci'on, y no hay soluci'on a la que no haya podido proponer mejoras.  Soy un resolvedor de problemas profesional, en el 'area de la programaci'on.
+
+
+\input{laborales}
+
+\input{otros_desarrollos}
+
+\input{herramientas}
+
+%\input{perfil}
+
+\input{academicos_l}
+%\input{academicos_f}
+\input{idiomas}
+
+\input{otros}
+
+\remuneracion
+\end{document}
