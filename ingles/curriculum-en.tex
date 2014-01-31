@@ -1,0 +1,25 @@
+\documentclass[a4paper,10pt]{article}
+
+\input{preambulo}
+
+\newcommand\remuneracion{}
+\ifx \platita \undefined
+  \renewcommand\remuneracion{}
+\else
+  \renewcommand\remuneracion{\subparagraph{Remuneraci\'on pretendida:}\$\number\platita\ por 6 hs diarias.}
+\fi
+
+\begin{document}
+
+\maketitle
+
+\input{laborales-en}
+
+\input{academicos-en}
+
+\input{otras_movidas-en}
+
+\input{otros-en}
+
+\remuneracion
+\end{document}
